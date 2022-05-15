@@ -1,0 +1,24 @@
+<h1> List of Department</h1>
+
+<button>Add Department</button>
+<app-add-department (insertedChanges)="insertedMessage($event)"></app-add-department>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Title</th>
+            <th scope="col">Description</th>
+            <th scope="col">View</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let dept Of listOfDepartments">
+            <th scope="row">{{dept.id}}</th>
+            <td>{{dept.name}}</td>
+            <td>{{dept.description}}</td>
+            <td><a href="department-list/view/{{dept.id}}">View</a></td>
+        </tr>
+
+    </tbody>
+</table>

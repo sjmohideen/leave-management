@@ -1,0 +1,41 @@
+{
+  "department": [
+    {
+      "id": 1,
+      "name": "Developer",
+      "description": "web developer"
+    },
+    {
+      "id": 2,
+      "name": "HR",
+      "description": "Human resource"
+    },
+    {
+      "id": 3,
+      "name": "Tester",
+      "description": "web Tester"
+    },
+    {
+      "name": "sdfsfsfsdf",
+      "description": "sdfsdfsdfsd",
+      "id": 4
+    },
+    {
+      "name": "newst",
+      "description": "test",
+      "id": 5
+    },
+    {
+      "name": "ris",
+      "description": "test",
+      "id": 6
+    }
+  ],
+  "dashboard": [
+    {
+      "totalDepartment": 5,
+      "totalEmployee": 15,
+      "totalProjects": 75
+    }
+  ]
+}
